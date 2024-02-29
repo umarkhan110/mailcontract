@@ -341,6 +341,7 @@ Please also see below 3 references from similar HOAs
     </div>`,
   }
 };
+const chromiumPack = "https://github.com/Sparticuz/chromium/releases/download/v121.0.0/chromium-v121.0.0-pack.tar";
 const generatePdf = async (htmlContent) => {
   const browser = await puppeteer.launch({
     args: chromium.args,
