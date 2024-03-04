@@ -384,11 +384,11 @@ export async function POST(req) {
       subject: data.subject,
       ...generateEmailBody(data),
       attachments: [
-        {
-          filename: "logo.png",
-          path: "public/images/logo.png",
-          cid: "logo",
-        },
+        // {
+        //   filename: "logo.png",
+        //   path: "/public/images/logo.png",
+        //   cid: "logo",
+        // },
         // {
         //   filename: "dest.jpg",
         //   path: "public/images/dest.jpg",

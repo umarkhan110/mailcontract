@@ -52,7 +52,7 @@ export default function Home() {
     
     const response = await sendContactForm(finalData);
     console.log(response)
-    debugger
+
     if(response.success === true){
       setSubmitted(true)
       reset();
